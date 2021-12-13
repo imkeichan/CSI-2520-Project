@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    font-size: 85px;
+    color: black;
+  }
+  p{
+      color: brown;
+  }
+  *{
+      background-color: blanchedalmond;
+      margin: 1;
+      padding: 1;
+  }
