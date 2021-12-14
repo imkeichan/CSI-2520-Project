@@ -19,11 +19,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/Chrome_hearts", (req, res) => {
-    res.render("../views/Chrome_Hearts.ejs");
+    res.render("../views/html/Chrome_Hearts.ejs");
 });
 
 app.get("/Comme_Des_Garcons", (req, res) => {
-    res.render("../views/Comme_Des_Garcons.ejs");
+    res.render("../views/html/Comme_Des_Garcons.ejs");
 });
 
 app.get("/Issey_Miyake", (req, res) => {
