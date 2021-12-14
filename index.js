@@ -45,7 +45,7 @@ app.get("/Undercover", (req, res) => {
     res.render("../views/Undercover.ejs");
 });
 
-app.get("/More_About_me", (req, res) => {
+app.get("/More_About_Me", (req, res) => {
     res.render("../views/More_About_Me.ejs");
 });
 
