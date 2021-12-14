@@ -27,26 +27,26 @@ app.get("/Comme_Des_Garcons", (req, res) => {
 });
 
 app.get("/Issey_Miyake", (req, res) => {
-    res.render("../views/Issey_Miyake.ejs");
+    res.render("../views/html/Issey_Miyake.ejs");
 });
 
 app.get("/Kapital", (req, res) => {
-    res.render("../views/Kapital.ejs");
+    res.render("../views/html/Kapital.ejs");
 });
 app.get("/Maison_Margiela", (req, res) => {
-    res.render("../views/Maison_Margiela.ejs");
+    res.render("../views/html/Maison_Margiela.ejs");
 });
 
 app.get("/Number_Nine", (req, res) => {
-    res.render("../views/Number_Nine.ejs");
+    res.render("../views/html/Number_Nine.ejs");
 });
 
 app.get("/Undercover", (req, res) => {
-    res.render("../views/Undercover.ejs");
+    res.render("../views/html/Undercover.ejs");
 });
 
 app.get("/More_About_Me", (req, res) => {
-    res.render("../views/More_About_Me.ejs");
+    res.render("../views/html/More_About_Me.ejs");
 });
 
 //start server
